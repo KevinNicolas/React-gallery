@@ -7,7 +7,6 @@ function App({ Component, pageProps }: any) {
       <Head>
         {/* <meta name="viewport" content="viewport-fit=cover" /> */}
         <meta name="viewport" content="initial-scale=1.0, width=device-width"></meta>
-        <style>@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');</style>
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
